@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Ballers_API.props" />
+</Project>

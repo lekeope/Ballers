@@ -1,4 +1,40 @@
 ﻿<Properties StartupConfiguration="{4D76D014-FCCD-42B1-972E-EEAFBA61C602}|https">
-  <MonoDevelop.Ide.ItemProperties.Ballers__API FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ballers_API/Controllers/BookingsController.cs">
+    <Files>
+      <File FileName="Ballers_API/Views/Home/Index.cshtml" />
+      <File FileName="Ballers_API/Models/Booking.cs" Line="13" Column="1" />
+      <File FileName="Ballers_API/Models/ErrorViewModel.cs" />
+      <File FileName="Ballers_API/Models/Pitch.cs" />
+      <File FileName="Ballers_API/Models/DTO/BookingDTO.cs" Line="8" Column="4" />
+      <File FileName="Ballers_API/Controllers/BookingsController.cs" Line="19" Column="64" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ballers">
+            <Node name="Ballers_API">
+              <Node name="Controllers" expanded="True">
+                <Node name="BookingsController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="DTO" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Ballers__API PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

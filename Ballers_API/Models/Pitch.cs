@@ -6,17 +6,17 @@ namespace Ballers_API.Models
 		public bool IsNatural { get; set; }
 		public string PitchType { get; set; }
         public string Address { get; set; }
-        public string Note { get; set; }
+        public int RecommendMaxPlayers{ get; set; }
+        public string Description { get; set; }
 
-        public Pitch(PITCH_TYPE pitchType, string address, string note)
+        public Pitch(PITCH_TYPE pitchType, string address, string description)
         {
             Address = address;
-            Note = note;
+            Description = description;
 
+            IsNatural = false;
             if (pitchType == PITCH_TYPE.NATURAL)
-                IsNatural = true;
-            else
-                IsNatural = false;
+                IsNatural = true;        
         }
 	}
 	public enum PITCH_TYPE
